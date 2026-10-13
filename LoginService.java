@@ -17,7 +17,8 @@ public class LoginService {
         System.out.println(service.login("admin", "1234"));
         System.out.println(service.login("admin", "wrong"));
     }
+
     public String getLoginMessage() {
-    return "Welcome User";
-}
+        return "Login Success";
+    }
 }
